@@ -35,43 +35,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_mod"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="%" />
-
-        <Button
-            android:id="@+id/btn_sqrt"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="sqrt" />
-
-        <Button
-            android:id="@+id/btn_squared"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="x^2"
-            />
-
-        <Button
-            android:id="@+id/btn_"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="1/x" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:orientation="horizontal">
-
-        <Button
             android:id="@+id/btn_percent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -90,15 +53,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="\u232b"
-            />
+            android:text="BS" />
 
         <Button
             android:id="@+id/btn_clear"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="÷" />
+            android:text="/" />
 
     </LinearLayout>
 
@@ -218,7 +180,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="±" />
+            android:text="+/-" />
 
         <Button
             android:id="@+id/btn_0"
